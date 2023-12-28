@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora de Notas</title>
+	<link rel="stylesheet" href="style.css"/>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+	<h1>Calculadora de porcentaje de notas</h1>
+	<h2> La nota tiene un rango de 0-20</h2>
+	<div class="items">
+		<div class="app">
+		<div class="form-grupo">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="QUIMICA"
+			id="quimica"
+			/>
+		</div>
+		<div class="form-grupo">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="INGLES"
+			id="ingles"
+			/>
+		</div>
+		<div class="form-grupo">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="MATEMATICAS"
+			id="matematica"
+			/>
+		</div>
+		<div class="form-grupo">
+			<input
+			type="text"
+			class="form-control"
+			placeholder="FISICA"
+			id="fisica"
+			/>
+		</div>
+		<div>
+			<input
+			type="button"
+			value="Mostrar porcentaje"
+			class="form-boton"
+			onclick="calcular()"
+			/>
+		</div>
+		</div>
+	</div>
+	<div class="form-grupo mostrarDatos">
+		<p id="mostrarDatos"></p>
+			</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

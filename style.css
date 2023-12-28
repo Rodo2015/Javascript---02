@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    font-size: 12px;
+    display: flex;
+}
+
+h1{
+    text-align: center;
+} 
+
+h2{
+    text-align: center;
+} 
+
+.container {
+    margin: auto;
+    padding: 10px;
+}
+
+.items {
+    flex: 1;
+    padding: 50px;
+}
+
+input {
+    margin: 10px 10px 10px;
+}
+
+.mostrarDatos {
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
